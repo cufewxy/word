@@ -45,6 +45,7 @@ def pop_model_redundant_word():
             json.dump(model, f)
 
 
+
 if __name__ == '__main__':
     check_duplicate()
     pop_model_redundant_word()
